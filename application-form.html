@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>Application Form</title>
+<style type="text/css">
+span{
+display: block;
+width: 550px;
+height: 20px;
+background:#9BABFF;
+border: 1px solid #001B7F;
+text-align: center;
+}
+h3{
+    font-family: Calibri;
+    font-size: 40pt;
+    font-style: normal;
+    font-weight: bold;
+    color:#001B7F;
+    text-align: center;
+}
+table{
+       font-family: Calibri;
+       color:#001B7F;
+       font-size: 20pt;
+       font-style: normal;
+       background-color:#C2CEFF;
+       border: 5px solid #9BABFF}
+table.inner{border: 0px}
+</style>
+</head>
+<body style = "background-color:#C2CEFF;">
+<h3>STUDENT REGISTRATION FORM</h3>
+<center><b><span>IELTS Training</span></b></center><br>
+<form action="form.php" method="POST">
+<table align="center" cellpadding = "10">
+<tr>
+   <td>First Name :</td>
+   <td><input type="text" name="First_Name" maxlength="30" placeholder="first_name" /></td>
+</tr>
+<tr>
+   <td>Last Name :</td>
+    <td><input type="text" name="Last_Name" maxlength="30" placeholder="last_name" /></td>
+</tr>
+<tr>
+  <td>Email-ID :</td>
+  <td><input type="text" name="Email_Id" maxlength="100" placeholder="email" /></td>
+</tr>
+<tr>
+  <td>Phone number :</td>
+  <td>
+  <input type="text" name="Phone_Number" maxlength="10" placeholder="number" /></td>
+
+<tr>
+  <td>Date of birth:</td>
+  <td><input type = "date" name = "date_of_birth" placeholder=d_o_b /></td>
+</tr>
+<tr>
+ <td>Address:</td>
+ <td><textarea name="Address" rows="4"   cols="30"></textarea></td>
+</tr>
+<tr>
+  <td>Gender :</td>
+  <td>
+  Male <input type="radio" name="Gender" value="Male" />
+  Female <input type="radio" name="Gender" value="Female"     checked/>
+  </td>
+</tr>
+<tr>
+  <td> Acedamic information</td>
+</tr>
+<tr>
+ <td>Highest Degree</td>
+ <td><input type="text" name="First_Name" maxlength="30"/></td>
+<tr>
+  <td colspan="2" align="center">
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+</html>
